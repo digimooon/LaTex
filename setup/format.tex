@@ -199,7 +199,8 @@
 \def\cgrade#1{\def\@cgrade{#1}}\def\@cgrade{}
 \def\cauthor#1{\def\@cauthor{#1}}\def\@cauthor{}
 \def\cnumber#1{\def\@cnumber{#1}}\def\@cnumber{}
-\def\cstuid#1{\def\@cstuid{#1}}\def\@cstuid{}
+\def\cstuida#1{\def\@cstuida{#1}}\def\@cstuida{}
+\def\cstuidb#1{\def\@cstuidb{#1}}\def\@cstuidb{}
 \def\cdate#1{\def\@cdate{#1}}\def\@cdate{}
 \long\def\cabstract#1{\long\def\@cabstract{#1}}\long\def\@cabstract{}
 \long\def\eabstract#1{\long\def\@eabstract{#1}}\long\def\@eabstract{}
@@ -240,7 +241,7 @@
 
       \vspace*{60pt}
       \renewcommand\arraystretch{1.5}
-      \setlength{\@title@width}{5cm}
+      \setlength{\@title@width}{8cm}
       {
         \sanhao\song{
           \begin{tabular}{lc}
@@ -248,7 +249,8 @@
             \textbf{专\qquad 业}  &  \underline{\makebox[\@title@width][c]{\textbf{\@csubject}}} \\
             \textbf{年\qquad 级}  &  \underline{\makebox[\@title@width][c]{\textbf{\@cgrade}}}\\
             \textbf{姓\qquad 名}  &  \underline{\makebox[\@title@width][c]{\textbf{\@cauthor}}}\\
-            \textbf{学\qquad 号}  &  \underline{\makebox[\@title@width][c]{\textbf{\@cstuid}}}\\
+            \textbf{学\qquad 号}  &  \underline{\makebox[\@title@width][c]{\textbf{\@cstuida}}}\\
+            \textbf{}  &  \underline{\makebox[\@title@width][c]{\textbf{\@cstuidb}}}\\
           \end{tabular}
         }
     }
