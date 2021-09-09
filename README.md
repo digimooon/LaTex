@@ -1,2 +1,2 @@
-# LaTex
+# Requirements
 文档
